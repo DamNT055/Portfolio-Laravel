@@ -7,20 +7,29 @@ use Image;
 use DB;
 use Carbon\Carbon;
 use Illuminate\Support\Str;
+use Illuminate\Support\Facades\Redirect;
+use Illuminate\Support\Facades\Session;
 
 
 class AdminViewController extends Controller
 {
-    public function login() {
+    public function login()
+    {
+        if (Session::has('admin_id') &&  Session::has('admin_username'))
+            if (!empty(Session::get('admin_id'))  && !empty(Session::get('admin_username')))
+            return Redirect::to('td-admin');
         return view('admin.login');
     }
-    public function dashboard() {
+    public function dashboard()
+    {
         return view('admin.dashboard');
     }
-    public function blog() {
+    public function blog()
+    {
         return view('admin.blog');
     }
-    public function create_blog() {
+    public function create_blog()
+    {
         return view('admin.create_blog');
     }
     public function edit($id = 0)
@@ -40,16 +49,20 @@ class AdminViewController extends Controller
     {
         return view('admin.doing');
     }
-    public function testimonial() {
+    public function testimonial()
+    {
         return view('admin.404');
     }
-    public function education() {
+    public function education()
+    {
         return view('admin.404');
     }
-    public function experience() {
+    public function experience()
+    {
         return view('admin.404');
     }
-    public function skill() {
+    public function skill()
+    {
         return view('admin.404');
     }
 }

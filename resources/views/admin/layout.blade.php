@@ -53,6 +53,9 @@
                 <li class="nav-item d-none d-sm-inline-block">
                     <a href="{{URL::to('td-admin/')}}" class="nav-link">Home</a>
                 </li>
+                <li class="nav-item d-none d-sm-inline-block">
+                    <a href="{{URL::to('auth-logout')}}" class="nav-link">Logout</a>
+                </li>
             </ul>
 
             <!-- Right navbar links -->
