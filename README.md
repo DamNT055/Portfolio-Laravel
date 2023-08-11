@@ -6,4 +6,9 @@ Website system built with Laravel backend
 * Develop website interface based on html, css, bootstrap
   
 Website: 
-![alt text]([Untitled.png](https://raw.githubusercontent.com/DamNT055/Portfolio-Laravel/master/Untitled.png)https://raw.githubusercontent.com/DamNT055/Portfolio-Laravel/master/Untitled.png "Logo Title Text 1")
+
+![alt text](https://raw.githubusercontent.com/DamNT055/Portfolio-Laravel/master/Untitled.png)
+
+Admin: 
+
+![alt text](https://raw.githubusercontent.com/DamNT055/Portfolio-Laravel/master/Untitled.png)
