@@ -11,4 +11,4 @@ Website:
 
 Admin: 
 
-![alt text](https://raw.githubusercontent.com/DamNT055/Portfolio-Laravel/master/Untitled.png)
+![alt text](https://raw.githubusercontent.com/DamNT055/Portfolio-Laravel/master/Untitled1.png)
